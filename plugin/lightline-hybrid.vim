@@ -107,5 +107,7 @@ else
 				\ [s:mono5, s:mono0, s:c_mono5, s:c_mono0]]
 endif
 
+let s:p.normal.error = s:p.replace.left
+let s:p.normal.warning = s:p.visual.left
 
 let g:lightline#colorscheme#hybrid#palette = s:p
